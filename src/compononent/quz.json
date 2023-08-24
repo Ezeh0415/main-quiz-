@@ -1,0 +1,75 @@
+{
+  "question": [
+    {
+      "questionText": "who is the owner of tesla",
+
+      "questionAnswer": [
+        { "questionTest": "Elon musk", "isCorrect": true },
+        { "questionTest": "Bill Gate", "isCorrect": false },
+        { "questionTest": "Mark zugarbeg", "isCorrect": false },
+        { "questionTest": "alico dangote", "isCorrect": false }
+      ],
+      "id": 1
+    },
+
+    {
+      "questionText": " How to import useState in react",
+
+      "questionAnswer": [
+        {
+          "questionTest": "import (useState) from ./react",
+          "isCorrect": false
+        },
+        {
+          "questionTest": "import [useState] from ./react",
+          "isCorrect": false
+        },
+        { "questionTest": "import useState from ./react", "isCorrect": false },
+        { "questionTest": "import {useState} from ./react", "isCorrect": true }
+      ],
+      "id": 2
+    },
+
+    {
+      "questionText": "what is the correct thing to add to a useEffect to stop it from running each time a function is clicked",
+
+      "questionAnswer": [
+        { " questionTest": "by adding a function inside", "isCorrect": false },
+        { " questionTest": "By useing timeout for it", "isCorrect": false },
+        {
+          " questionTest": "by adding dependence in the useEffect",
+          "isCorrect": true
+        },
+        { " questionTest": "none of the above", "isCorrect": false }
+      ],
+      "id": 3
+    },
+
+    {
+      "questionText": "whats the correct way to add dependence in useEffect",
+
+      "questionAnswer": [
+        { " questionTest": "uesEffect(() => {})", "isCorrect": false },
+        { " questionTest": "uesEffect(() => {},[])", "isCorrect": true },
+        { " questionTest": "uesEffect() => {})", "isCorrect": false },
+        { " questionTest": "uesEffect([], () => {})", "isCorrect": false }
+      ],
+      "id": 4
+    },
+
+    {
+      "questionText": "whats the correct way to create react app",
+
+      "questionAnswer": [
+        { " questionTest": "create-react-app filename", "isCorrect": false },
+        { " questionTest": "react-app-create filename", "isCorrect": false },
+        {
+          " questionTest": "npm create-react-app filename",
+          "isCorrect": false
+        },
+        { " questionTest": "npx create-react-app filename", "isCorrect": true }
+      ],
+      "id": 5
+    }
+  ]
+}
